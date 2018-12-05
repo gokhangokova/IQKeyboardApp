@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.toolbarDoneBarButtonItemText = "Kapat"
+        IQKeyboardManager.shared.toolbarTintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+//        IQKeyboardManager.shared.toolbarNextBarButtonItemText = "İleri"
+//        IQKeyboardManager.shared.toolbarPreviousBarButtonItemText = "Geri"
+        IQKeyboardManager.shared.toolbarBarTintColor = #colorLiteral(red: 0, green: 0.4784313725, blue: 1, alpha: 1)
         return true
     }
 
