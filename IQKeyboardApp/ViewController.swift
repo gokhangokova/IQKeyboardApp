@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import AppCenter
+import AppCenterCrashes
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        MSAppCenter.start("d2743526-8e37-43ef-ba92-0c2006ce8160", withServices:[
+          MSCrashes.self
+        ])
     }
 
 

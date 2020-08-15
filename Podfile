@@ -6,6 +6,8 @@ target 'IQKeyboardApp' do
 
     use_frameworks!
     pod 'IQKeyboardManagerSwift'
+pod 'AppCenter'
+
 
 
 

@@ -1,16 +1,27 @@
 PODS:
+  - AppCenter (3.3.2):
+    - AppCenter/Analytics (= 3.3.2)
+    - AppCenter/Crashes (= 3.3.2)
+  - AppCenter/Analytics (3.3.2):
+    - AppCenter/Core
+  - AppCenter/Core (3.3.2)
+  - AppCenter/Crashes (3.3.2):
+    - AppCenter/Core
   - IQKeyboardManagerSwift (6.2.0)
 
 DEPENDENCIES:
+  - AppCenter
   - IQKeyboardManagerSwift
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
+    - AppCenter
     - IQKeyboardManagerSwift
 
 SPEC CHECKSUMS:
+  AppCenter: aba7de06e4c2184f90dc84f7866bd07f82427d69
   IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
 
-PODFILE CHECKSUM: 93e0746f148d5199607a0e595c4f6c74f2ce6087
+PODFILE CHECKSUM: 385e84b21a0850ef5e56f0cfcda8c23c032926e6
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.3

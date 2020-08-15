@@ -8,6 +8,9 @@
 
 import UIKit
 import IQKeyboardManagerSwift
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,6 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        IQKeyboardManager.shared.toolbarNextBarButtonItemText = "İleri"
 //        IQKeyboardManager.shared.toolbarPreviousBarButtonItemText = "Geri"
         IQKeyboardManager.shared.toolbarBarTintColor = #colorLiteral(red: 0, green: 0.4784313725, blue: 1, alpha: 1)
+        MSAppCenter.start("d2743526-8e37-43ef-ba92-0c2006ce8160", withServices:[
+          MSAnalytics.self,
+          MSCrashes.self
+        ])
         return true
     }
 

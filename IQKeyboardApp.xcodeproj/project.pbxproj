@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18094C8E24E81BEF006CA0FA /* IQKeyboardApp.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 18094C8D24E81BEF006CA0FA /* IQKeyboardApp.xcscheme */; };
 		18BEE08921B7BB910045E3A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BEE08821B7BB910045E3A1 /* AppDelegate.swift */; };
 		18BEE08B21B7BB910045E3A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BEE08A21B7BB910045E3A1 /* ViewController.swift */; };
 		18BEE08E21B7BB910045E3A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BEE08C21B7BB910045E3A1 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18094C8D24E81BEF006CA0FA /* IQKeyboardApp.xcscheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = IQKeyboardApp.xcscheme; sourceTree = "<group>"; };
 		18BEE08521B7BB910045E3A1 /* IQKeyboardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQKeyboardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BEE08821B7BB910045E3A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18BEE08A21B7BB910045E3A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				18BEE08821B7BB910045E3A1 /* AppDelegate.swift */,
 				18BEE08A21B7BB910045E3A1 /* ViewController.swift */,
 				18BEE08C21B7BB910045E3A1 /* Main.storyboard */,
+				18094C8D24E81BEF006CA0FA /* IQKeyboardApp.xcscheme */,
 				18BEE08F21B7BB910045E3A1 /* Assets.xcassets */,
 				18BEE09121B7BB910045E3A1 /* LaunchScreen.storyboard */,
 				18BEE09421B7BB910045E3A1 /* Info.plist */,
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18094C8E24E81BEF006CA0FA /* IQKeyboardApp.xcscheme in Resources */,
 				18BEE09321B7BB910045E3A1 /* LaunchScreen.storyboard in Resources */,
 				18BEE09021B7BB910045E3A1 /* Assets.xcassets in Resources */,
 				18BEE08E21B7BB910045E3A1 /* Main.storyboard in Resources */,
@@ -185,20 +189,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyboardApp/Pods-IQKeyboardApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-IQKeyboardApp/Pods-IQKeyboardApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-IQKeyboardApp/Pods-IQKeyboardApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyboardApp/Pods-IQKeyboardApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IQKeyboardApp/Pods-IQKeyboardApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -286,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -341,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -357,7 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 64K5VWNKN6;
+				DEVELOPMENT_TEAM = ZT5XY8VXJB;
 				INFOPLIST_FILE = IQKeyboardApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -376,7 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 64K5VWNKN6;
+				DEVELOPMENT_TEAM = ZT5XY8VXJB;
 				INFOPLIST_FILE = IQKeyboardApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
