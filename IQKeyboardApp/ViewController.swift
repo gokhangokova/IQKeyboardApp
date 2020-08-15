@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         MSAppCenter.start("d2743526-8e37-43ef-ba92-0c2006ce8160", withServices:[
           MSCrashes.self
         ])
+        //Gokhan Gokvoa & Mert Akkaya
     }
 
 
